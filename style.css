@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-image: url(./cookies-laptop-t.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(7, 0, 0);
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.label {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.cookieBox {
+    height: 50px;
+    width: 350px;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+
+}
+
+.buttonCookieAdd {
+    margin-top: 100px;
+    height: 50px;
+    max-width: max-content;
+    padding: 0 20px 0 20px;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(131, 14, 14, 0.74);
+    color: white;
+}
+
+ @media screen and (max-width: 414px) {
+    .title {
+        margin-top: 80px;
+        font-size: 3rem;
+    }
+
+    .label {
+        font-size: 1.5rem;
+    }
+
+    .cookieBox {
+        margin: 0.5rem;
+        font-size: 1.2rem;
+        max-width: max-content;
+    }
+
+    p {
+        color:rgb(255, 253, 253)
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .buttonCookieAdd {
+        max-width: max-content;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    
+}
