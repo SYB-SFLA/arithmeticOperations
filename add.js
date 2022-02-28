@@ -1,7 +1,9 @@
 /* Sélection des différents 'id' nécessaires pour la fonction */
 const firstBox = document.getElementById("firstBox"); // 1er input
 const secondBox = document.getElementById("secondBox"); // 2nd input
+const random = document.getElementById("random"); // bouton choix aléatoire
 const calculate = document.getElementById("calculate"); // bouton calculer
+const clear = document.getElementById("clear"); // bouton nettoyer
 const result = document.getElementById("result"); // résultat 
 
 /* Branchement d'un écouteur d'event de type 'clic' sur le bouton de soumission */
@@ -17,6 +19,23 @@ calculate.addEventListener('click', () => {
     /* CONDITION - SINON affichage du résultat */
     } else {
         const addition = first + second;
-        result.innerHTML = `Le résultat est égale à ${addition} 🍪`;
+        result.innerHTML = `Le résultat est égale à ${addition}🍪`;
     }
+})
+
+/* Branchement d'un écouteur d'event de type 'mousedown' sur le bouton du choix aléatoire */
+random.addEventListener('mousedown', function(){
+    /* Affectation à la valeur de chaque boxe une valeur aléatoire entre 0 et 1000, arrondi à l'unite supérieure*/
+    firstBox.value = Math.floor(Math.random()*1000)
+    secondBox.value = Math.floor(Math.random()*1000);
+})
+
+
+/* Branchement d'un écouteur d'event de type 'clic' sur le bouton de nettoyage */ 
+clear.addEventListener('click', function (){
+    /* Nettoyage des inputs */
+    firstBox.value = '';
+    secondBox.value = '';
+    /* Nettoyage du résultat */
+    result.innerHTML = '';
 })
