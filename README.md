@@ -15,4 +15,4 @@ L'application est disponible pour différentes résolutions d'écrans afin de r�
 ### Autres améliorations à venir ! 🚧  
 
 
-
+<img src="./HomePage.png">
