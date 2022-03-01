@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
-        <title>Application pour des opérations arihtmétiques</title>
-    </head>
-    <body>
-        <h1 class="title">Arithmétiques App.</h1>
-         <p class="subtitle">Bienvenue sur cette application qui vous permet d'additionner, de soustraire, de multiplier ou de diviser deux nombres choisis ou d'en générer deux aléatoirement pour le calcul!</p>
-        <h2 id="result"></h2>
-        <div class="label">1er nombre
-            <input id="firstBox" class="cookieBox" type="number" placeholder="Choisis un nombre 🔢">
-        </div>
-        <div class="label">2ème nombre
-            <input id="secondBox" class="cookieBox" type="number" placeholder="Choisis un nombre 🔢">
-        </div>
 
-        <button id="random" class="buttonRandomAdd" type="submit">Choix aléatoire</button>
-        <button id="additionOperation" class="buttonCookieAdd" type="submit">Additionner</button>
-        <button id="soustractionOperation" class="buttonCookieSoust" type="submit">Soustraire</button>
-        <button id="multiplicationOperation" class="buttonCookieMult" type="submit">Multiplier</button>
-        <button id="divisionOperation" class="buttonCookieDiv" type="submit">Diviser</button>
-        <button id="clear" class="buttonClearInput" type="submit">Nettoyer</button>
-        <script src="./add.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Application pour des opérations arihtmétiques</title>
+</head>
+
+<body>
+    <div id="page">
+        <div id="header">
+            <h1 class="title">Arithmétiques App.</h1>
+            <p class="subtitle">Bienvenue sur cette application qui vous permet d'additionner, de soustraire, de
+                multiplier ou de diviser deux nombres choisis ou d'en générer deux aléatoirement pour le calcul!</p>
+        </div>
+        <div id="content">
+            <h2 id="result"></h2>
+            <div class="label">1er nombre
+                <input id="firstBox" class="cookieBox" type="number" placeholder="Choisis un nombre 🔢">
+            </div>
+            <div class="label">2ème nombre
+                <input id="secondBox" class="cookieBox" type="number" placeholder="Choisis un nombre 🔢">
+            </div>
+            <!-- ZONE BOUTON -->
+            <button id="random" class="buttonRandomAdd" type="submit">Choix aléatoire</button>
+            <button id="additionOperation" class="buttonCookieAdd" type="submit">Additionner</button>
+            <button id="soustractionOperation" class="buttonCookieSoust" type="submit">Soustraire</button>
+            <button id="multiplicationOperation" class="buttonCookieMult" type="submit">Multiplier</button>
+            <button id="divisionOperation" class="buttonCookieDiv" type="submit">Diviser</button>
+            <button id="clear" class="buttonClearInput" type="submit">Nettoyer</button>
+        </div>
+        <div id="footer">
+            <footer>by SYB</footer>
+        </div>
+    </div>
+    <script src="./arithmetics.js"></script>
+</body>
+
+
 </html>

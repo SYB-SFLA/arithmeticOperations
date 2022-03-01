@@ -12,7 +12,9 @@ L'application est disponible pour différentes résolutions d'écrans afin de r�
 - Vous permettre d'additionner, de soustraire, de multiplier ou de diviser deux nombres générer aléatoirement;
 - Vous permettre d'effacer toutes les données
 
+
 ### Autres améliorations à venir ! 🚧  
 
-
-<img src="./HomePageV2.png">
+<img src="./HomePage-Desktop.png">
+<img src="./HomePage-Tablette.png">
+<img src="./HomePage-Mobile.png>
