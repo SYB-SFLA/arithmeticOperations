@@ -17,4 +17,4 @@ L'application est disponible pour différentes résolutions d'écrans afin de r�
 
 <img src="./HomePage-Desktop.png">
 <img src="./HomePage-Tablette.png">
-<img src="./HomePage-Mobile.png>
+<img src="./HomePage-Mobile.png">
