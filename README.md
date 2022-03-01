@@ -15,6 +15,6 @@ L'application est disponible pour différentes résolutions d'écrans afin de r�
 
 ### Autres améliorations à venir ! 🚧  
 
-<img src="./HomePage-Desktop.png">
-<img src="./HomePage-Tablette.png">
-<img src="./HomePage-Mobile.png">
+<img src="./HomePage-Desktop.png" alt="Capture d'écran pour ordinateur bureau de l'application">
+<img src="./HomePage-Tablette.png" alt="Capture d'écran pour tablette de l'application">
+<img src="./HomePage-Mobile.png" alt="Capture d'écran pour mobile de l'application">
