@@ -8,6 +8,7 @@ body {
     font-size: 4.4rem;
     color: rgb(0, 0, 0);
     margin: 100px 50px;
+    white-space: break-spaces;
 }
 
 .subtitle {
@@ -15,7 +16,9 @@ body {
     color:rgb(214, 200, 200);
     font-weight: bold;
     margin: 0 50px;
+    white-space: break-spaces;
 }
+
 h2 {
     color: rgb(151, 52, 52);
     font-size: 30px;
@@ -37,6 +40,7 @@ h2 {
     text-align: center;
 }
 
+/* BOUTON ALÉATOIRE */
 .buttonRandomAdd {
     margin-top: 100px;
     height: 50px;
@@ -54,7 +58,7 @@ h2 {
     font-weight: bold;
 }
 
-
+/* BOUTON ADDITION */
 .buttonCookieAdd {
     margin-top: 100px;
     height: 50px;
@@ -72,6 +76,61 @@ h2 {
     font-weight: bold;
 }
 
+/* BOUTON SOUSTRACTION */
+.buttonCookieSoust {
+    margin-top: 100px;
+    height: 50px;
+    padding: 0 20px 0 20px;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    background-color: rgba(208, 211, 186, 0.822);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttonCookieSoust:hover{
+    color: rgb(0, 4, 59);
+    font-weight: bold;
+}
+
+/* BOUTON MULTIPLICATION */
+.buttonCookieMult {
+    margin-top: 100px;
+    height: 50px;
+    padding: 0 20px 0 20px;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    background-color: rgba(22, 153, 114, 0.822);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttonCookieMult:hover{
+    color: rgb(0, 4, 59);
+    font-weight: bold;
+}
+
+/* BOUTON DIVISION */
+.buttonCookieDiv {
+    margin-top: 100px;
+    height: 50px;
+    padding: 0 20px 0 20px;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    background-color: rgba(221, 67, 20, 0.822);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttonCookieDiv:hover{
+    color: rgb(0, 4, 59);
+    font-weight: bold;
+}
+
+/* BOUTON NETTOYAGE DES INPUTS */
 .buttonClearInput {
     margin-top: 100px;
     height: 50px;
@@ -89,7 +148,8 @@ h2 {
     font-weight: bold;
 }
 
- @media screen and (max-width: 414px) {
+/* RESPONSIVE */
+ @media screen and (max-width: 360px) {
     .title {
         margin-top: 80px;
         font-size: 4rem;
@@ -104,19 +164,8 @@ h2 {
         font-size: 1.2rem;
         max-width: max-content;
     }
-
-    p {
-        color:rgb(255, 253, 253);
-    }
-
     h2 {
         font-size: 1.2rem;
     }
 
-    .buttonCookieAdd {
-        max-width: max-content;
-        align-items: center;
-        margin-bottom: 100px;
-    }
-    
 }

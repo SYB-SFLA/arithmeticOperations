@@ -8,11 +8,11 @@ L'application est disponible pour différentes résolutions d'écrans afin de r�
 
 ### Objectif de cette application v2 🎯: 
 
-- Vous permettre d'additionner deux nombres choisis;
-- Vous permettre d'additionner deux nombres choisis aléatoirement;
+- Vous permettre d'additionner, de soustraire, de multiplier ou de diviser deux nombres choisis;
+- Vous permettre d'additionner, de soustraire, de multiplier ou de diviser deux nombres générer aléatoirement;
 - Vous permettre d'effacer toutes les données
 
 ### Autres améliorations à venir ! 🚧  
 
 
-<img src="./HomePage.png">
+<img src="./HomePageV2.png">
